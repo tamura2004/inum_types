@@ -1,0 +1,3 @@
+module InumTypes
+  # Your code goes here...
+end
