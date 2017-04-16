@@ -10,13 +10,12 @@ Gem::Specification.new do |s|
   s.authors     = ["tamura"]
   s.email       = ["tamura2004@gmail.com"]
   s.homepage    = ""
-  s.summary     = ": Summary of InumTypes."
-  s.description = ": Description of InumTypes."
+  s.summary     = "Add generator for Inum"
+  s.description = "usage: rails g types hoge fuga"
   s.license     = "MIT"
 
   s.files = Dir["{app,config,db,lib}/**/*", "MIT-LICENSE", "Rakefile", "README.md"]
 
-  s.add_dependency "rails", "~> 5.0.0", ">= 5.0.0.1"
-
-  s.add_development_dependency "sqlite3"
+  s.add_dependency "rails"
+  s.add_dependency "inum"
 end
